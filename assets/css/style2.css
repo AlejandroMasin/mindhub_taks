@@ -7,14 +7,12 @@
 
 .container {
     padding: 5px 0px;
-}
-
-header {
+    margin-top: 5%;
     position: relative;
 }
 
 header .bg-img {
-    background-image: url("../img/design1_image1.jpg");
+    background-image: url("../img/design1_image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -23,8 +21,9 @@ header .bg-img {
 }
 
 header h1 {
-    padding: 10px;
     font-size: 3.5em;
+    position: absolute;
+    top: -22%;
 }
 
 header span {
@@ -44,36 +43,48 @@ header .wrapper__logo {
     border: 2px solid rgb(228, 215, 215) ;
     display: inline-block;
     position: absolute;
-    bottom: -10%;
-    right: 10%;
+    bottom:-50%;
+    left: 1%;
+    height: ;
 }
 
 header .logo {
     width: 100px;
+    margin: 10px;
 }
 
 nav {
-    width: 20%;
     height: 100vh;
     padding: 10px;
     display: inline-block;
+    position: absolute;
+    top: -15%;
+    right: -2%;
 }
 
 nav a {
-    display: block;
+    display: inline-block;
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    width: 120px;
     margin: 25px;
     margin-bottom: 40px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 nav .active {
-    text-decoration: none;
-    color: black;
+    background-color: rgb(131, 204, 59);
 }
 
 main > section {
     padding: 20px;
     display: inline-block;
     position: absolute;
+    margin-left: 15%;
 }
 
 main > section p {
