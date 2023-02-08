@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, 'sans-serif';
+}
+
+html {
+    background-color: rgba(214, 165, 100, 0.85);
+}
+
+.container {
+    padding: 2px;
+    margin: auto;
+    min-width: 1024px;
+    min-height: 600px;
+}
+
+header{
+    height: 228px;
+}
+header .bg-img {
+    background-image: url("../img/design1_image1.jpg");
+    filter: grayscale(20%);
+    filter: contrast(130%);
+    filter:sepia(25%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 225px;
+    background-position-x: center;
+    background-position-y: 20%;
+    -webkit-filter:sepia(25%);
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    text-shadow: 2px 2px rgb(255, 215, 142);
+    text-align: center;
+}
+
+header .wrapper__logo {
+    background-color: white;
+    border: 2px solid rgb(228, 215, 215) ;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 1;
+    margin: 15px;
+}
+
+header .wrapper__logo:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    cursor: pointer;
+}
+
+header .logo {
+    width: 100px;
+    margin: 10px;
+}
+
+nav {
+    padding: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    width: 170px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .5s ease-in-out ;
+    -webkit-transition: all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out ;
+    -ms-transition: all .5s ease-in-out ;
+    -o-transition: all .5s ease-in-out ;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+nav .active {
+    background-color: rgb(131, 204, 59);
+}
+
+main  {
+    float: left;
+    width: 80%;
+    /* border: 2px solid blue; */
+}
+
+main section h2{
+    background-color: black;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
+
+main > section article {
+    margin-left: 15px;
+
+}
+
+main > section p {
+    margin: 15px;
+    text-indent: 1em;
+}
+
+main h5 {
+    text-align: center;
+}
+
+.section__rules h2 {
+    border: 2px solid green;
+}
+
+.section__rules h4 {
+    margin-top: 10px;
+}
+
+.section__rules p {
+    margin: 0px 0 0px 0 ;
+}
+
+.section__rules ol {
+    display: inline-block;
+    padding: 0px;
+    margin-left: 10px;
+    list-style-type: decimal;
+}
+
+.section__rules ol li {
+    margin: 10px;
+}
+
+.section__rules ol.segundo_nivel {
+    list-style-type:lower-alpha;
+    padding-left: 2em;
+}
+
+
+.section__rules dt {
+    font-weight: bold;
+    margin-bottom: 1em;
+
+}
+
+.section__rules dl {
+    margin: 10px;
+}
+
+.section__rules dl dd {
+    text-indent: 1em;
+}
+
+.section__rules .all_play {
+    margin-left: 3em;
+    margin-bottom: 1em;
+    list-style-type: circle;
+}
+
+.section__rules .negrita {
+    font-weight: bolder;
+}
+
+section#game_info h4 {
+    padding: 0;
+    margin: 0;
+}
+
+/* section#game_info table,
+th,
+td {
+    border: 1px solid blue;
+} */
+
+section#game_info td {
+    width: 29%;
+}
+
+th {
+    text-align: left;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+table td:nth-child(1) {
+    text-align: left;
+}
+
+section#game_info p {
+    text-indent: 0px;
+    margin-left: 0px;
+}
+
+section#game_info .negrita {
+    font-weight: bolder;
+}
+
+section#game_info .phone {
+    display: inline-block;
+    margin-right: 32em;
+
+}
+
+section#game_info .email {
+    display: inline-block;
+    text-align: right;
+}
